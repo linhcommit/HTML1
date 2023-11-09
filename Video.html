@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Try</title>
+    </head>
+
+    <body>
+        <!--The properties doesn't need to order-->
+        <video controls width = "400", height="300" loop>
+            <source src="BướcQuaMùaCôĐơn.mp4">
+        </video>
+
+        <h3>Next</h3>
+
+        <!--Don't allow autoplay because sound from video 
+        can affect the friend is sitting arround -->
+        <video width = "400", height="300" controls autoplay>
+            <source src="BướcQuaMùaCôĐơn.mp4">
+        </video>
+
+        <!--If you want video autoplay, you need muted-->
+        <h3>Next</h3>
+        <video width = "400", height="300" controls autoplay muted>
+            <source src="BướcQuaMùaCôĐơn.mp4">
+        </video>
+
+        <!-- You can add the "type" in the source or not -->
+        <h3>Next</h3>
+        <video width = "400", height="300" controls autoplay>
+            <source src="BướcQuaMùaCôĐơn.mp4" type="video/mp4">
+        </video>
+
+    </body>
+</html>
